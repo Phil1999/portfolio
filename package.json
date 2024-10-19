@@ -1,12 +1,14 @@
 {
-  "name": "personal-site",
+  "name": "philip-homepage",
   "version": "0.1.0",
+  "description": "Philip's website",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prettier": "prettier - write .",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -16,9 +18,21 @@
     ]
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/next-js": "^2.4.2",
+    "@chakra-ui/react": "^2.10.3",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.9",
+    "lucide-react": "^0.453.0",
+    "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -35,9 +49,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "postcss": "^8",
     "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
 }
